@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var a = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "Значение счетчика: \(a)"
+        label.text = "Значение счётчика: \(a)"
     
         // Do any additional setup after loading the view.
     }
