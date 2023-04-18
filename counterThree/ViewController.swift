@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var pushMe: UIButton!
     var a = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func button(_ sender: Any) {
+        a = a + 1
+        print(a)
+    }
+    
 }
 
