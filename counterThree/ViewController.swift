@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(_ sender: Any) {
-        a = a + 1
-        print(a)
+        a += 1
+            viewDidLoad()
     }
     
 }
